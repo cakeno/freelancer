@@ -1,0 +1,22 @@
+.header {
+  background-color: #343a40;
+  color: white;
+  font-family: cursive;
+}
+
+li {
+  display: inline-block;
+  padding: 20px 5px;
+}
+
+li:hover {
+    color: #18bc9c;
+    cursor: pointer;
+}
+
+.portfolio {
+  display: flex;
+}
+.footer {
+  display: flex;
+}
