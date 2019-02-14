@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Montserrat:700');
 
+h1{
+  margin: 0px;
+}
 a{
   text-decoration: none;
   color: white;
@@ -13,23 +16,31 @@ li:hover {
   cursor: pointer;
 
 }
+img{
+  width: 100%;
+}
 .menu-header {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  text-align: center;
   background-color: #343a40;
   color: white;
   display: flex;
   flex-direction: row;
-  padding: 16px 8px;
-  text-align: center;
   position: fixed;
+  padding: 16px 8px;
   width: 1280px;
+}
+.img-profile-top{
+  max-width: 250px;
 }
 .menu-logo {
   font-size: 24px;
   padding: 5px 0px;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 .menu-itens{
   justify-content: flex-end;
@@ -38,14 +49,14 @@ li:hover {
   padding: 0px 50px 0px 0px;
 }
 .page-top{
-  padding: 100px 0px 95px 0px;
+  padding: 150px 0px 95px 0px;
   text-align: center;
   background-color: #18bc9c;
   color: white;
   width: 1280px;
 }
 .img-profile-top{
-  margin: 100px 430px 50px 430px;
+  margin: 0px 430px 50px 430px;
 }
 .mont-top{
   font-family: 'Montserrat', sans-serif;
@@ -58,17 +69,68 @@ li:hover {
   font-size: 28px;
   font-weight: 300px;
 }
-.star{
+.star-white{
     border: 2px solid white;
     margin: 40px 500px;
 }
-.portfolio {
+.container{
+  padding: 96px 0px;
+}
+.title-portfolio {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
   display: flex;
+  flex-direction: column;
+}
+.h2-dark{
+  font-size: 48px;
+  color: #2c3e50;
+  margin: 0px;
+}
+.star-dark{
+    border: 2px solid #2c3e50;
+    margin: 40px 500px;
+}
+.icons-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .img-portfolio{
+  max-width: 350px;
+  width: inherit;
+}
+.about{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #18bc9c;
+  padding: 96px 0px
+}
+.sec-about{
+  display: flex;
+  justify-content: center;
+}
+.p-about{
+  font-family: Lato;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  margin: 20px;
+  text-align: left;
+  max-width: 350px;
+}
+.h2-white{
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+}
+.contact{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.form-contact{
 
 }
 .footer {
-  display: flex;
 }
