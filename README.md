@@ -9,4 +9,3 @@ O desafio consiste em replicar o site **Freelancer** e o resultado desejado é e
 * O projeto foi executado utilizando apenas HTML e CSS;
 * Visualmente os sites ficaram semelhantes;
 * Os botões estão agindo de acordo com a referência;
-* 
