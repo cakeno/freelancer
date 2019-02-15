@@ -4,10 +4,10 @@
    margin: 0;
    border: 0;
 }
-h1{
+h1 {
   margin: 0px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -20,7 +20,7 @@ li:hover {
   cursor: pointer;
 
 }
-img{
+img {
   width: 100%;
 }
 .menu-header {
@@ -38,6 +38,7 @@ img{
 }
 .img-profile-top{
   max-width: 250px;
+  margin: 0px 430px 50px 430px;
 }
 .menu-logo {
   font-size: 24px;
@@ -61,25 +62,23 @@ img{
   color: white;
   width: 1280px;
 }
-.img-profile-top{
-  margin: 0px 430px 50px 430px;
-}
-.mont-top{
+.h1-top{
   font-family: 'Montserrat', sans-serif;
   font-size: 76px;
   font-weight: 700;
   margin: 0px;
 }
-.lato-top{
+.h2-top{
   font-family: 'Lato', sans-serif;
   font-size: 28px;
   font-weight: 300px;
 }
-.star-white{
+.line-white{
     border: 2px solid white;
     margin: 40px 500px;
+    position: relative;
 }
-.container{
+.portfolio-title-container{
   padding: 96px 0px;
 }
 .title-portfolio {
@@ -93,9 +92,10 @@ img{
   color: #2c3e50;
   margin: 0px;
 }
-.star-dark{
+.line-dark{
     border: 2px solid #2c3e50;
     margin: 40px 500px;
+    position: relative;
 }
 .icons-container{
   display: flex;
@@ -106,6 +106,7 @@ img{
 .img-portfolio{
   max-width: 350px;
   width: inherit;
+  padding: 25px 0px;
 }
 .about{
   font-family: 'Montserrat', sans-serif;
@@ -156,6 +157,8 @@ img{
 .form-contact{
   margin: 0px 275px;
   width: 730px;
+  display: flex;
+  flex-direction: column;
 }
 .text-form{
   width: inherit;
@@ -184,6 +187,10 @@ img{
 .hr-form{
   border: 0.5px solid #6c757d;
 }
+.btn-container{
+    margin: 25px 0px;
+    width: inherit;
+}
 .btn-form{
   background-color: #18bc9c;
   font-family: 'Lato', sans-serif;
@@ -192,7 +199,6 @@ img{
   color: white;
   border-radius: 5px;
   padding: 20px 28px;
-  margin: 20px;
 }
 .btn-form:hover{
   background-color: #197e6a;
